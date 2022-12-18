@@ -1,0 +1,50 @@
+.div-info-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  align-items: center;
+}
+
+.div-review-game {
+    margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  height: 20vh;
+  width: 50vw;
+  padding: 10px;
+}
+.card-info {
+    margin-top: 40px;
+  padding: 1%;
+  background-color: rgb(255, 255, 255);
+  height: 50%;
+  width: 70%;
+}
+
+.game-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-1 {
+  width: 20%;
+}
+
+.img-style {
+  height: 15rem;
+  width: 15rem;
+}
+
+p {
+  font-size: x-large;
+  font-family: Arial
+}
+h1{
+    font-family: Arial
+}
+
+.game-title {
+  font-size: xx-large;
+}
