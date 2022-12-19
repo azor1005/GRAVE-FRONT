@@ -16,38 +16,7 @@ img {
   cursor: pointer;
 }
 
-div.input-search-space {
-  position: relative;
-  width: 200px;
-  display: flex;
-  align-items: center;
-}
 
-i.bi-search {
-  position: absolute;
-  top: 1;
-  right: 0.2rem;
-  z-index: 10;
-  border: none;
-  background-color: #f5f5f5;
-  color: #757575;
-  border-radius: 0.3rem;
-  padding: 0.5rem;
-}
-
-div.input-search-space input {
-  outline: none;
-  font-size: 1rem;
-  padding: 0.6rem;
-  background-color: #f5f5f5;
-  border: none;
-  width: 100%;
-  border-radius: 0.3rem;
-}
-
-div.input-search-space input:focus {
-  border: 1px solid #0bade3;
-}
 
 button {
   background-color: #000000;
