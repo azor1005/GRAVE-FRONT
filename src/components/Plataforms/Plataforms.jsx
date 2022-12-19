@@ -1,4 +1,8 @@
 import Button from "react-bootstrap/Button";
+import logopc from "../../images/plataform-pc.png"
+import logoxbox from "../../images/plataform-xbox.png"
+import logoplaystation from "../../images/plataform-playstation.png"
+import logoswitch from "../../images/plataform-switch.png"
 import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
 import "./Plataforms.css";
@@ -29,7 +33,7 @@ export function PlataformsCard() {
               id="PC"
               className="plataforms-images"
               variant="top"
-              src="https://www.betaarchive.com/wiki/images/9/94/Pc-logo-png.png"
+              src={logopc}
               onClick={onClick}
             />
             <Card.Body></Card.Body>
@@ -40,7 +44,7 @@ export function PlataformsCard() {
               id="Xbox"
               className="plataforms-images"
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png"
+              src={logoxbox}
               onClick={onClick}
             />
             <Card.Body></Card.Body>
@@ -51,7 +55,7 @@ export function PlataformsCard() {
               id="Playstation"
               className="plataforms-images"
               variant="top"
-              src="https://s7test3.scene7.com/is/image/SIEPDC/playstation-family-logo?$native$"
+              src={logoplaystation}
               onClick={onClick}
             />
             <Card.Body></Card.Body>
@@ -62,7 +66,7 @@ export function PlataformsCard() {
               id="Switch"
               className="plataforms-images"
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/3/38/Nintendo_switch_logo.png"
+              src={logoswitch}
               onClick={onClick}
             />
             <Card.Body></Card.Body>

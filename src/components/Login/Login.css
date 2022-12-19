@@ -1,0 +1,14 @@
+.loginEmail {
+    margin-top: 15px;
+  width: 200px;
+  height: 25px;
+  font-size: larger;
+  font-family: Arial;
+}
+
+.loginPassword {
+  width: 200px;
+  height: 25px;
+  font-size: larger;
+  font-family: Arial;
+}

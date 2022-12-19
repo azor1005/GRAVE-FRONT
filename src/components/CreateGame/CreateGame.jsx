@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./CreateGame.css"
 
 export function CreateGame() {
   const navigate = useNavigate();
@@ -98,6 +99,7 @@ export function CreateGame() {
     >
       <h2>Criar Jogo</h2>
       <input
+      className="nameCreateGame"
         onChange={onChange}
         name="name"
         value={payload.name}
@@ -106,6 +108,7 @@ export function CreateGame() {
         style={{ marginBottom: "20px" }}
       />
       <input
+      className="developedCreateGame"
         onChange={onChange}
         name="developed"
         value={payload.developed}
@@ -113,7 +116,7 @@ export function CreateGame() {
         type="text"
         style={{ marginBottom: "20px" }}
       />
-      <select name="genre" value={payload.genre} onChange={onChange} required>
+      <select className="selectCreateGame" name="genre" value={payload.genre} onChange={onChange} required>
         <option value="Aventura"> Aventura </option>
         <option value="Ação"> Ação </option>
         <option value="Estratégia"> Estratégia </option>
@@ -162,6 +165,7 @@ export function CreateGame() {
         style={{ width: "400px", height: "200px", marginBottom: "20px" }}
       ></textarea>
       <input
+      className="imageCreateGame"
         onChange={onChange}
         name="image"
         value={payload.image}

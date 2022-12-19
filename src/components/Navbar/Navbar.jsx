@@ -13,7 +13,7 @@ export function Navbar() {
     navigate(`/Register`);
   };
   const onClickGame = (event) => {
-    navigate(`/Register/Game`);
+    navigate(`/RegisterGame`);
   };
   const onClickSair = (event) => {
     localStorage.removeItem("token");

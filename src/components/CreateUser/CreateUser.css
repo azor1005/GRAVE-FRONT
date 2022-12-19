@@ -1,0 +1,25 @@
+.inputEmail {
+  width: 200px;
+  height: 25px;
+  font-size: larger;
+  font-family: Arial
+}
+
+.inputName {
+  margin-top: 10px;
+  width: 200px;
+  height: 25px;
+  font-size: larger;
+  font-family: Arial
+}
+
+.inputPassword {
+  width: 200px;
+  height: 25px;
+  font-size: larger;
+  font-family: Arial
+}
+
+h2{
+    font-family: Arial
+}

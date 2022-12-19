@@ -1,4 +1,5 @@
 .div-info-game {
+  font-family: Arial;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,13 +9,16 @@
 }
 
 .div-review-game {
-    margin-top: 40px;
+  font-family: Arial;
+  margin-top: 40px;
   background-color: rgb(255, 255, 255);
   height: 20vh;
   width: 50vw;
   padding: 10px;
+  border-radius: 10px;
 }
 .card-info {
+  font-family: Arial;
     margin-top: 40px;
   padding: 1%;
   background-color: rgb(255, 255, 255);
@@ -23,6 +27,8 @@
 }
 
 .game-description {
+  margin-left: 20px;
+  font-family: Arial;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,9 +36,11 @@
 
 .div-1 {
   width: 20%;
+  font-family: Arial;
 }
 
 .img-style {
+  font-family: Arial;
   height: 15rem;
   width: 15rem;
 }
@@ -42,9 +50,14 @@ p {
   font-family: Arial
 }
 h1{
-    font-family: Arial
+    font-family: Arial;
+}
+
+div{
+  font-family: Arial;
 }
 
 .game-title {
   font-size: xx-large;
+  font-family: Arial;
 }

@@ -45,9 +45,9 @@ export function Game() {
               <button onClick={onClick} >Criar Review</button>
             </div>
             <div className="game-description">
-              <p>Descrição do jogo:{data.resume}</p>
+              <p>{data.resume}</p>
               <div>
-                <p>Desenvolvedor:{data.developed}</p>
+                <p>Desenvolvedor: {data.developed}</p>
                 <p>
                   Plataforma:
                   {data.plataform

@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./CreateUser.css"
 
 export function CreateUser() {
   const navigate = useNavigate();
@@ -39,9 +40,10 @@ export function CreateUser() {
         width: "100vw",
       }}
     >
-      <h2>Criar Usuario</h2>
+      <h2 >Criar Usuario</h2>
       <input
         onChange={onChange}
+        className="inputName"
         name="name"
         value={payload.name}
         placeholder="Nome"
@@ -50,6 +52,7 @@ export function CreateUser() {
       />
       <input
         onChange={onChange}
+        className="inputEmail"
         name="email"
         value={payload.email}
         placeholder="Email"
@@ -58,6 +61,7 @@ export function CreateUser() {
       />
       <input
         onChange={onChange}
+        className="inputPassword"
         name="password"
         value={payload.password}
         placeholder="Password"
