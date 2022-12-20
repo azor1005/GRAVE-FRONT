@@ -10,7 +10,7 @@ export function CreateGame() {
     resume: "",
     developed: "",
     image: "",
-    genre: "",
+    genre: "Aventura",
     plataform: [],
   });
   const [checkbox, setCheckbox] = useState({
@@ -159,6 +159,7 @@ export function CreateGame() {
 
       <textarea
         onChange={onChange}
+        className="resumeGameText"
         name="resume"
         value={payload.resume}
         placeholder="Descrição do jogo"
