@@ -31,7 +31,7 @@ export function CreateReview() {
       };
       console.log(newPayload);
       const response = await axios.put(
-        `${import.meta.env.LINK}/game/review/${window.location.href
+        `${import.meta.env.VITE_LINK}/game/review/${window.location.href
           .split("/")
           .pop()}`,
         newPayload,
