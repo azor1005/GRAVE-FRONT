@@ -21,7 +21,7 @@ export function CreateUser() {
   const sendData = async () => {
     try {
       
-      const response = await axios.post("${import.meta.env.VITE_LINK}/user", payload);
+      const response = await axios.post(`${import.meta.env.VITE_LINK}/user`, payload);
       if (response.status === 201) {
         navigate(`/Login`);
       }
