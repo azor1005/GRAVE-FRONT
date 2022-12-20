@@ -15,7 +15,7 @@ export function GameListAll() {
 
   const handleData = async () => {
     try {
-      const response = await axios.post(`http://localhost:3000/game/filter`, {
+      const response = await axios.post(`${import.meta.env.LINK}/game/filter`, {
         filter: "",
       });
       setData(response.data);
@@ -25,7 +25,7 @@ export function GameListAll() {
   };
   const handleDataSearch = async () => {
     try {
-      const response = await axios.get(`http://localhost:3000/game/search`);
+      const response = await axios.get(`${import.meta.env.LINK}/game/search`);
       setDataSearch(response.data.finalResult);
     } catch (err) {
       console.log(err);
@@ -33,7 +33,7 @@ export function GameListAll() {
   };
   const handleDataFiltered = async () => {
     try {
-      const response = await axios.post(`http://localhost:3000/game/filter`, {
+      const response = await axios.post(`${import.meta.env.LINK}/game/filter`, {
         filter,
       });
       setData(response.data);

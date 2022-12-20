@@ -11,7 +11,7 @@ export function GameList() {
   const handleData = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:3000/game/top/${window.location.href
+        `${import.meta.env.LINK}/game/top/${window.location.href
           .split("/")
           .pop()}`
       );

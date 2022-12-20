@@ -10,7 +10,7 @@ export function Game() {
   const handleData = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:3000/game/${window.location.href.split("/").pop()}`
+        `${import.meta.env.LINK}/game/${window.location.href.split("/").pop()}`
       );
       setData(response.data);
       console.log(response.data);

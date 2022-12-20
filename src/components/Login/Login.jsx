@@ -19,7 +19,7 @@ export function Login() {
   };
   const sendData = async () => {
     try {
-      const response = await axios.post("http://localhost:3000/auth", payload);
+      const response = await axios.post("${import.meta.env.LINK}/auth", payload);
       if (response.data.token) {
         localStorage.setItem("token", response.data.token);
         navigate(`/`);

@@ -75,7 +75,7 @@ export function CreateGame() {
       };
       console.log(newPayload);
       const response = await axios.post(
-        "http://localhost:3000/game",
+        "${import.meta.env.LINK}/game",
         newPayload,
         config
       );
